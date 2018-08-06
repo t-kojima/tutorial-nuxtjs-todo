@@ -1,8 +1,23 @@
-# example-migration-from-jinja2
+# tutorial-nuxtjs-todo
 
-jinja2 で辛い問題
+> Nuxt.js project
 
-- 良いフォーマッタがない。`{% %}` の位置が何か変
-- JavaScript にデータが渡し辛い。
-  - jinja2 の問題ではないが、DOM を介したくない
-  - `function({{ data }})` という渡し方もできなくはないが、エディタはエラーを吐く（実際は動く）
+## Build Setup
+
+``` bash
+# install dependencies
+$ npm install # Or yarn install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+
